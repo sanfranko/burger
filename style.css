@@ -8,7 +8,10 @@ body {
 }
 
 .container {
-    max-width: 1140px;
+
+    box-sizing: border-box;
+
+    max-width: 1170px;
     margin: auto;
 
     padding: 0 15px;
@@ -166,4 +169,58 @@ h6 {
 
 .food-list__text-wrapper {
     padding: 20px 30px;
+}
+
+
+.order {
+    background: #312F30;
+    padding: 60px 0;
+
+
+}
+
+.order__tittle {
+    margin-bottom: 25px;
+    font-size: 44px;
+}
+
+.order__text {
+    max-width: 370px;
+
+    padding-right: 90px;
+}
+
+.order__img {
+    max-width: 470px;
+}
+
+.order__desc {
+    margin-bottom: 15px;
+    font-size: 16px;
+    opacity: 0.7;
+}
+
+.order__price {
+    font-weight: 500;
+    font-size: 20px;
+    letter-spacing: 0.1em;
+    color: chocolate;
+}
+
+.order__old-price {
+    font-weight: 500;
+    color: chocolate;
+    letter-spacing: 0.1em;
+    text-decoration: line-through;
+    opacity: 0.5;
+}
+
+.order .btn {
+    margin-top: 10px;
+}
+
+.order .container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
 }
