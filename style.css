@@ -337,6 +337,10 @@ h6 {
     padding: 60px 0;
 }
 
+.download .container {
+    padding: 0 95px 0 95px;
+}
+
 .download__text {
     display: flex;
     align-items: center;
