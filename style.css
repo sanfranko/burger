@@ -306,7 +306,6 @@ h6 {
     justify-content: space-evenly;
 
     padding-bottom: 195px;
-
 }
 
 .feedback__img {
@@ -330,4 +329,20 @@ h6 {
     font-size: 12px;
     opacity: 0.7;
     margin-top: 2px;
+}
+
+
+.download {
+    background: #312F30;
+    padding: 60px 0;
+}
+
+.download__text {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.downloadk__tittle {
+    font-size: 40px;
 }
