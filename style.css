@@ -292,3 +292,42 @@ h6 {
 .card-papa {
     background-image: url(./images/pro4.jpg);
 }
+
+.feedback__text {
+    max-width: 125x;
+    width: 370px;
+
+    text-align: center;
+}
+
+.feedback .container {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+
+    padding-bottom: 195px;
+
+}
+
+.feedback__img {
+    width: 350px;
+    height: 350px;
+}
+
+.feedback__desc {
+    font-size: 16px;
+    opacity: 0.7;
+
+    margin-top: 37px;
+    margin-bottom: 27px;
+}
+
+.feedback__tittle {
+    font-size: 24px;
+}
+
+.feedback__new-desc {
+    font-size: 12px;
+    opacity: 0.7;
+    margin-top: 2px;
+}
